@@ -6,14 +6,16 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>Insert title here</title>
+<title>서핑장 목록</title>
 </head>
+	<h2>서핑장 목록</h2>
 <body>
+	<h4>바로 예약</h4>
 	<form method ="post" action ="<%= request.getContextPath() %>/surfing/surfreserv.jsp">
 		성명
 		<input type="text" name="user_Name" value="" placeholder="성명"><br>
 		서핑장 이름
-		<input type="text" name="Surf_Site" value="" placeholder="서핑장 이름"><br>s
+		<input type="text" name="Surf_Site" value="" placeholder="서핑장 이름"><br>
 		카카오페이
 		<input type="radio" name="MOP" value="Kakao"><br>
 		신용카드

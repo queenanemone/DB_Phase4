@@ -31,7 +31,7 @@
 	pstmt = conn.prepareStatement(query);
 	rs = pstmt.executeQuery();
 %>
-	<h4>------------------------------------</h4>
+	<h4>--------------------------------------------</h4>
 <%
 	out.println("<table border=\"1\">");
 	ResultSetMetaData rsmd = rs.getMetaData();

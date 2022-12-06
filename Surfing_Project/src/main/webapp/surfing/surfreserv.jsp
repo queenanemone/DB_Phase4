@@ -6,7 +6,7 @@
 <%@page language="java" import="java.text.*, java.sql.*"%><html>
 <head>
 <meta charset="EUC-KR">
-<title>Insert title here</title>
+<title>예약 완료 페이지</title>
 </head>
 	<body>
 		<%

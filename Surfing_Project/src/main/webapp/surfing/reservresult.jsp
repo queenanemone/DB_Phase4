@@ -8,6 +8,7 @@
 <meta charset="EUC-KR">
 <title>예약 조회 목록</title>
 </head>
+	<h2>This is Your Appointment</h2>
 <body>
 	<%
 		String user_Id = request.getParameter("user_Id");

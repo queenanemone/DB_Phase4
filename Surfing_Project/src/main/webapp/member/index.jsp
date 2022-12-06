@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>Insert title here</title>
+<title>멤버 메인 페이지</title>
 </head>
 <body>
 <h3>멤버 관리 메인</h3>

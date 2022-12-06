@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>Insert title here</title>
+<title>로그인 화면</title>
 </head>
 <body>
 	<form method ="post" action ="<%= request.getContextPath() %>/member/login.jsp">

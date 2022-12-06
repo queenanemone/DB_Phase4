@@ -7,7 +7,7 @@
 <title>등록</title>
 </head>
 <body>
-<h3>회원 등록 하기</h3>
+	<h3>회원 등록 하기</h3>
 <form method ="post" action ="<%= request.getContextPath() %>/member/regist.jsp">
 	성명
 	<input type="text" name="user_Name" value="" placeholder="이름"><br>
