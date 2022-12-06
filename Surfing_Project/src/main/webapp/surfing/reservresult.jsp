@@ -46,7 +46,7 @@
 		conn.close();
 	%>
 	<ul>
-		<li><a href="<%= request.getContextPath()%>/surfing/reservrefer.jsp">뒤로 가기</a></li>
+		<li><a href="<%= request.getContextPath()%>/surfing/index.jsp">뒤로 가기</a></li>
 		<li><a href="<%= request.getContextPath()%>/main.jsp">메인으로</a></li>
 	</ul>
 </body>

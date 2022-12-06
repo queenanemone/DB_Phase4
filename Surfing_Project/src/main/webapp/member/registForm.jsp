@@ -27,6 +27,9 @@
 	<input type="tel" name="PHONENUMBER" value="" placeholder="전화번호"><br>
 	<input type="submit" value="등록">
 </form>
-
+	<ul>
+		<li><a href="<%= request.getContextPath()%>/member/index.jsp">뒤로 가기</a></li>
+		<li><a href="<%= request.getContextPath()%>/main.jsp">메인으로</a></li>
+	</ul>
 </body>
 </html>  
