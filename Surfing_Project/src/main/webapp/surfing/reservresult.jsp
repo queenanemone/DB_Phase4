@@ -30,9 +30,9 @@
 		out.println("<table border=\"1\">");
 		ResultSetMetaData rsmd = rs.getMetaData();
 		int cnt = rsmd.getColumnCount();
-		for (int i = 1; i <= cnt; i++){
-			out.println("<th>" + rsmd.getColumnName(i) + "</th>");
-		}
+		out.println("<th>서핑장 이름</th>");
+		out.println("<th>결제 수단</th>");
+		out.println("<th>요금</th>");
 		while (rs.next()){
 			out.println("<tr>");
 			out.println("<td>" + rs.getString(1) + "</td>");

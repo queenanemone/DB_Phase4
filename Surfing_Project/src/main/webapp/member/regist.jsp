@@ -36,7 +36,7 @@
 	</body>
 		<h2>등록이 완료되었습니다!</h2>
 	<ul>
-		<li><a href="<%= request.getContextPath()%>/member/registform.jsp">뒤로 가기</a></li>
+		<li><a href="<%= request.getContextPath()%>/member/registForm.jsp">뒤로 가기</a></li>
 		<li><a href="<%= request.getContextPath()%>/main.jsp">메인으로</a></li>
 	</ul>
 </html>
