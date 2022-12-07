@@ -8,6 +8,7 @@
 <meta charset="EUC-KR">
 <title>로그인</title>
 </head>
+	<h1>아직 제대로 구현되지 않은 기능입니다!!!</h1>
 	<body>
 		<%
 			String user_Id = request.getParameter("user_Id");

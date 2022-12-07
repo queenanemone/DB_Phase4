@@ -7,7 +7,7 @@
 <title>멤버 메인 페이지</title>
 </head>
 <body>
-<h3>멤버 관리 메인</h3>
+<h2>멤버 관리 메인</h2>
 	<ul>
 		<li><a href="registForm.jsp">등록하기</a></li>
 		<li><a href="list.jsp">목록보기</a></li>
